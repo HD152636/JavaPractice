@@ -23,7 +23,6 @@ public class Snack {
 	
 	public Snack(){}
 	public Snack(String name, String company, int price, int number) {
-		super();
 		this.name = name;
 		this.company = company;
 		this.price = price;
@@ -79,7 +78,7 @@ public class Snack {
 	}
 	
 	public String toString(){
-		return "이름 :"+name+"\n제조사 : "+company+"\n가격:"+price+"원\n개수:"+number+"개";
+		return "이름 : "+name+"\n제조사 : "+company+"\n가격 : "+String.format("%,d",price)+"원\n개수 : "+number+"개";
 	}
 	public int calcPrice(){
 		return this.number*this.price;
