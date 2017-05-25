@@ -23,6 +23,7 @@ public interface IDBManager {
 
 	void search();
 
+	
 	void update();
 
 	void delete();

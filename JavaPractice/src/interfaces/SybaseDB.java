@@ -27,5 +27,8 @@ public class SybaseDB implements IDBManager{
 	}
 	public void delete(){
 		System.out.println("Sybase DB 삭제");
+	
 	}
+	
+
 }
