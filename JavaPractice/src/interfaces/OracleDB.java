@@ -27,7 +27,5 @@ public class OracleDB implements IDBManager {
 	}
 	public void delete(){
 		System.out.println("Oracle DB 삭제");
-		
-		
 	}
 }
