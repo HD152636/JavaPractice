@@ -28,6 +28,7 @@ public class MovieTest {
 		for(Movie movie : movies){
 			try {
 				movie.buyTicket(age);
+				System.out.println(movie.getTitle()+" 즐감하세요.");
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}

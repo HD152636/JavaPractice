@@ -32,6 +32,6 @@ public class Movie {
 		if(age<limitAge){
 			throw new Exception(title+" 은/는 "+limitAge+"세 이상 관람입니다.");
 		}
-		System.out.println(title+" 즐감하세요.");
+		
 	}
 }
